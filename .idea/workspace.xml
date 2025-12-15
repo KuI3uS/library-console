@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="755a8f9d-7ac6-4826-ab8b-9897dcc33874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-console.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/kuI3uS/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/kuI3uS/model/BookStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/kuI3uS/ui/ConsoleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/kui3us/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/kui3us/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/ui/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/kui3us/ui/ConsoleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="36qVdbEJDPXcbEEBcxkuRNPbtYq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +40,7 @@
     "Application.main.executor": "Run",
     "Application.pl.KuI3uS.library.ConsoleApp.executor": "Run",
     "Application.pl.kuI3uS.ui.ConsoleApp.executor": "Run",
+    "Application.pl.kui3us.ui.ConsoleApp.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -61,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.pl.kuI3uS.ui.ConsoleApp">
+  <component name="RunManager" selected="Application.pl.kui3us.ui.ConsoleApp">
     <configuration name="ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.main.library.ConsoleApp" />
       <module name="library-console" />
@@ -75,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pl.kuI3uS.ui.ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.kuI3uS.ui.ConsoleApp" />
+    <configuration name="pl.kui3us.ui.ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.kui3us.ui.ConsoleApp" />
       <module name="library-console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.kuI3uS.ui.*" />
+          <option name="PATTERN" value="pl.kui3us.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,7 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pl.kuI3uS.ui.ConsoleApp" />
+        <item itemvalue="Application.pl.kui3us.ui.ConsoleApp" />
         <item itemvalue="Application.ConsoleApp" />
       </list>
     </recent_temporary>
@@ -111,7 +106,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765734176611</updated>
-      <workItem from="1765734177639" duration="4513000" />
+      <workItem from="1765734177639" duration="6837000" />
+      <workItem from="1765790614369" duration="9491000" />
     </task>
     <servers />
   </component>

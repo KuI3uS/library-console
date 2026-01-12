@@ -1,4 +1,4 @@
-package src.pl.kui3us.model;
+package pl.kui3us.model;
 
 public enum BookStatus {
     AVAILABLE, LOANED

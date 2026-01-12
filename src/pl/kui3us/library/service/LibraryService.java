@@ -1,7 +1,7 @@
-package pl.kui3us.library.service;
+package src.pl.kui3us.library.service;
 
-import pl.kui3us.model.Book;
-import pl.kui3us.repository.BookRepository;
+import src.pl.kui3us.model.Book;
+import src.pl.kui3us.repository.BookRepository;
 
 import java.util.List;
 

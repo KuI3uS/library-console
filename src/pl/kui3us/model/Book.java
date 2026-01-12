@@ -1,4 +1,4 @@
-package pl.kui3us.model;
+package src.pl.kui3us.model;
 
 public class Book {
     private long id;

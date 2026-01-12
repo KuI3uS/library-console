@@ -1,8 +1,8 @@
-package src.pl.kui3us.ui;
+package pl.kui3us.ui;
 
-import src.pl.kui3us.library.service.LibraryService;
-import src.pl.kui3us.model.Book;
-import src.pl.kui3us.repository.BookRepository;
+import pl.kui3us.library.service.LibraryService;
+import pl.kui3us.model.Book;
+import pl.kui3us.repository.BookRepository;
 
 public class ConsoleApp {
     public static void main(String[] args) {

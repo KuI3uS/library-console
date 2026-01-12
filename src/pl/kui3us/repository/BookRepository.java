@@ -1,6 +1,6 @@
-package src.pl.kui3us.repository;
+package pl.kui3us.repository;
 
-import src.pl.kui3us.model.Book;
+import pl.kui3us.model.Book;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="755a8f9d-7ac6-4826-ab8b-9897dcc33874" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-console.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/library/service/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/service/LibraryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/model/BookStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BookStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/ui/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/library/service/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/kui3us/library/service/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/kui3us/ui/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/kui3us/ui/ConsoleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -64,6 +65,7 @@
     &quot;Application.pl.KuI3uS.library.ConsoleApp.executor&quot;: &quot;Run&quot;,
     &quot;Application.pl.kuI3uS.ui.ConsoleApp.executor&quot;: &quot;Run&quot;,
     &quot;Application.pl.kui3us.ui.ConsoleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.src.ui.ConsoleApp.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
@@ -74,7 +76,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;orgin&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/jakubmarcinkowski/Desktop/All-Projects/library-console&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -164,7 +166,8 @@
       <workItem from="1768173884319" duration="712000" />
       <workItem from="1768174608650" duration="470000" />
       <workItem from="1768175091369" duration="671000" />
-      <workItem from="1768175773563" duration="308000" />
+      <workItem from="1768175773563" duration="633000" />
+      <workItem from="1768220334426" duration="15473000" />
     </task>
     <servers />
   </component>

@@ -22,6 +22,7 @@ public class ConsoleApp {
             System.out.println("1 -> add flow");
             System.out.println("2 -> list flow");
             System.out.println("3 -> search by title");
+            System.out.println("4 -> search by author");
             System.out.println("0 -> return");
             String chase = scanner.nextLine();
 
@@ -54,6 +55,19 @@ public class ConsoleApp {
                     List<Book> results = service.searchByTitle(query);
                     if(results.isEmpty()){
                         System.out.println("No books found for given title.");
+                    }
+                    else {
+                        for(Book book : results){
+                            System.out.println(book);
+                        }
+                    }
+                }
+                case "4" -> {
+                    System.out.print("Enter Author fragment: ");
+                    String query = scanner.nextLine();
+                    List<Book> results = service.searchByAuthor(query);
+                    if(results.isEmpty()){
+                        System.out.println("No books found for given author.");
                     }
                     else {
                         for(Book book : results){

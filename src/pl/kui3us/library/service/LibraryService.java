@@ -39,4 +39,15 @@ public class LibraryService {
         }
         return results;
     }
+
+    public List<Book> searchByAuthor(String query){
+        List<Book> results = new ArrayList<>();
+        for (Book book : listBooks()){
+            String author = book.getAuthor().toLowerCase();
+            if(author.contains(query.toLowerCase())){
+                results.add(book);
+            }
+        }
+        return results;
+    }
 }

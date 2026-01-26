@@ -50,4 +50,7 @@ public class LibraryService {
         }
         return results;
     }
+    public boolean deleteBookById(long id){
+        return repository.deleteById(id);
+    }
 }

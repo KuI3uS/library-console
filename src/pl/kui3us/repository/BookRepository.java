@@ -22,4 +22,8 @@ public class BookRepository  {
         return books;
     }
 
+    public boolean deleteById (long id){
+        return books.removeIf(book -> book.getId() == id);
+    }
+
 }
